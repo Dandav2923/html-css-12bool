@@ -1,0 +1,33 @@
+:root {
+    --sfondo-blu--: blue;
+    --sfondo-verde--: green;
+    --bordo-bianco--: white;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 100%;
+    color: white;
+}
+
+.sfondo-blu {
+    background-color: var(--sfondo-blu--);
+}
+
+.sfondo-verde {
+    background-color: var(--sfondo-verde--);
+}
+
+.bordo-bianco {
+    border: 1px solid var(--bordo-bianco--);
+}
+
+[class *="row"] {
+    min-width: 75px;
+    line-height: 75px;
+}
