@@ -11,7 +11,7 @@
 }
 
 html {
-    font: 100%;
+    font-size: 100%;
     color: white;
 }
 
@@ -30,4 +30,28 @@ html {
 [class *="row"] {
     min-width: 75px;
     line-height: 75px;
+}
+
+.testo-centrato {
+    text-align: center;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.flex {
+    display: flex;
+}
+
+.padding {
+    padding: 1em;
+}
+
+.mr {
+    margin-right: 1px;
+}
+
+.mb {
+    margin-bottom: 3em;
 }
