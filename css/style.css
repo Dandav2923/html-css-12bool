@@ -1,7 +1,7 @@
 :root {
-    --sfondo-blu--: blue;
-    --sfondo-verde--: green;
-    --bordo-bianco--: white;
+    --sfondo-blu: blue;
+    --sfondo-verde: green;
+    --bordo-bianco: white;
 }
 
 * {
@@ -16,15 +16,15 @@ html {
 }
 
 .sfondo-blu {
-    background-color: var(--sfondo-blu--);
+    background-color: var(--sfondo-blu);
 }
 
 .sfondo-verde {
-    background-color: var(--sfondo-verde--);
+    background-color: var(--sfondo-verde);
 }
 
 .bordo-bianco {
-    border: 1px solid var(--bordo-bianco--);
+    border: 1px solid var(--bordo-bianco);
 }
 
 [class *="row"] {
