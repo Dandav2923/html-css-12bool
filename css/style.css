@@ -55,3 +55,35 @@ html {
 .mb {
     margin-bottom: 3em;
 }
+
+.center {
+    justify-content: center;
+}
+
+.end {
+    justify-content: flex-end;
+}
+
+.height-75 {
+    height: 75px;
+}
+
+.height-50 {
+    height: 50%;
+}
+
+.middle  {
+    align-self: center;
+}
+
+.bottom {
+    align-self: flex-end;
+}
+
+.around {
+    justify-content: space-around;
+}
+
+.between {
+    justify-content: space-between;
+}
